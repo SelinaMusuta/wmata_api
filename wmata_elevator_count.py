@@ -17,7 +17,7 @@ except ImportError:
 	from urllib.parse import urlencode
 
 def get_wmata_info(url, params=None):
-	demo_api_key = "6b700f7ea9db408e9745c207da7ca827"
+	demo_api_key = "xxxxxxxxx"
 	# Set a JSON object with key/value for api key
 	hdrs = {'api_key': demo_api_key}
 	if params != None:
@@ -45,7 +45,7 @@ state_list_url = "https://api.wmata.com/Rail.svc/json/jStations" #[?LineCode]"
 #Example code from WMATA API
 headers = {
     # Request headers
-    'api_key': '6b700f7ea9db408e9745c207da7ca827',
+    'api_key': 'xxxxxxxxxx',
 }
 
 params = urllib.urlencode({

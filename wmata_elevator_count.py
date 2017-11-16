@@ -6,6 +6,7 @@
 # the number of elevators out of service on the Green Line
 #
 # Exception Handling
+# demo key as of November 15th: https://developer.wmata.com/products
 
 import httplib, urllib, base64, json
 
